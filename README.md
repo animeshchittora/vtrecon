@@ -8,6 +8,7 @@ so "vtrecon" is a tool in python which gives subdomains from the virustotal sera
 Steps to setup
 1. Getting a API key.
     1. visit virustotal website and register on it to get an API key.
+    2. Put that api key in the python code     params={'apikey':'<apikey>','domain':data}
 
 2. Setting up python modules
    1. sudo pip3 install pyfiglet
