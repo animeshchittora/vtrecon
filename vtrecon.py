@@ -35,7 +35,7 @@ try:
 		print(whois)
 		print("\n")
 
-	if(pref==2):
+	elif(pref==2):
 		print("---------------------------------------subdomains----------------------------")
 		print("\n")
 		for sub in sub_domains:
@@ -43,7 +43,7 @@ try:
 		for domain in more_domains:
 			print(domain)
 
-	if(pref is not 1 or pref is not 2):
+	else:
 		print("Enter correct choice")
 		
 except(KeyError):
